@@ -19,13 +19,19 @@
 }
 
 .produtoras img {
+    cursor: pointer;
+    transition: .40s;
     box-shadow: 10px 10px 10px black;
     margin: 10px;
     width: 20vw;
     height: 30vh;
     border-radius: 5px;
     object-fit: cover;
+}
 
+.produtoras:hover > :not(:hover){
+    opacity: .4;
+    transform:escale(0.20);
 }
 
 body {
@@ -33,4 +39,24 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+}
+
+button {
+    cursor: pointer;
+    transition: .35s;
+    font-size: 30px;
+    border-radius: 6px;
+    background-color: #920F0C;
+    padding: 2px;
+    color: bisque;
+    margin: 5px;
+}
+
+.botao, a{
+    text-align: center;
+}
+
+.botao:hover > :not(:hover){
+    opacity: .4;
+    transform: escale(0.9);
 }

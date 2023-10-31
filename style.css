@@ -18,6 +18,8 @@
 }
 
 button {
+    cursor: pointer;
+    transition: .35s;
     font-size: 30px;
     border-radius: 6px;
     background-color: #920F0C;
@@ -29,6 +31,11 @@ button {
 
 .botao {
     text-align: center;
+}
+
+.botao:hover > :not(:hover){
+    opacity: .4;
+    transform: escale(0.9);
 }
 
    
