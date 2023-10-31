@@ -1,0 +1,34 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        background-image: url(img/back2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+.topo  {
+    color: aliceblue;
+    font-size: 60px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    visibility: hidden;
+}
+
+button {
+    font-size: 30px;
+    border-radius: 6px;
+    background-color: #920F0C;
+    padding: 2px;
+    color: bisque;
+    margin: 5px;
+    
+}
+
+.botao {
+    text-align: center;
+}
+
+   
